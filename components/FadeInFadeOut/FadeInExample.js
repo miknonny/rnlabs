@@ -46,7 +46,7 @@ export default class FadeInExample extends Component {
       show: true
     }
   }
-  _onPress  () {
+  _onPress () {
     this.setState({
       show: !this.state.show
     })

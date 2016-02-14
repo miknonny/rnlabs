@@ -6,13 +6,14 @@ import React, {
   Animated,
   Component
 } from 'react-native';
-import FadeInExample from './components/FadeInFadeOut/FadeInExample'
+import BoxMove from './components/BoxMove/BoxMove'
+
 
 
 
 class Example extends Component {
   render () {
-    return <FadeInExample />
+    return <BoxMove />
   }
 }
 
