@@ -6,14 +6,14 @@ import React, {
   Animated,
   Component
 } from 'react-native';
-import BoxMove from './components/BoxMove/BoxMove'
+import Forms from './components/Forms/Forms'
 
 
 
 
 class Example extends Component {
   render () {
-    return <BoxMove />
+    return <Forms />
   }
 }
 
