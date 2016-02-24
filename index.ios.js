@@ -6,14 +6,13 @@ import React, {
   Animated,
   Component
 } from 'react-native';
-import Forms from './components/Forms/Forms'
-import AnimateBoxOnClick from './components/layoutAnimation/AnimateBoxOnClick'
+import DragBox from './components/DragBox/DragBox'
 
 
 
 class Example extends Component {
   render () {
-    return <AnimateBoxOnClick />
+    return <DragBox />
   }
 }
 
